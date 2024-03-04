@@ -8,7 +8,7 @@ export default function Layout({ children }: { children: ReactNode }) {
   return (
     <>
       <Meta />
-      <main className="min-w-screen relative flex min-h-screen flex-col items-center gap-6 bg-zinc-900 p-4 font-sans">
+      <main className="min-w-screen flex min-h-screen flex-col items-center gap-6 bg-zinc-900 p-4 font-sans">
         <Header />
         {children}
         <Footer />
